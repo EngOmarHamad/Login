@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!--icons in placeholder awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title></title>
+    <style>
+        input,
+        input::placeholder {
+            font: 15px/3 sans-serif;
+        }
+
+        .divider:after,
+        .divider:before {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #000000;
+        }
+
+        @media screen and (max-width:770px) {
+            .bgl {
+                background-color: #FDFDFE !important;
+            }
+
+            .frm {
+                width: 80% !important;
+                margin-right: 10% !important; 
+                
+            }
+            .frm.form-control{
+                width:stretch !important;
+            }
+        }
+
+
+
+        @media screen and (max-width: 480px) {
+            .bgl {
+                background-color: #FDFDFE !important;
+            }
+
+            .frm {
+                width: 100% !important;
+                height: stretch !important;
+                margin-right: 15% !important;
+            }
+        }
+
+  
+        
+    </style>
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="row">
+
+
+            <div class="col-12 col-lg-7 shadow-sm align-content-center" style="background-color: #FDFDFE;">
+
+                <div class="row ms-0 ms-lg-3 h-100 shadow-sm bgl" style="background-color: #F8F7FB;">
+                    <div class="row ms-0 ms-lg-4 shadow-sm bgl" style="background-color: #F3F2F8">
+                        <div class="row ms-0 ms-lg-3 shadow-sm bgl" style="background-color: #F2F1F8 ">
+                            <div class="row ms-0 ms-lg-3 shadow-sm bgl" style="background-color: #F0EFF8">
+
+                                <div class="container-fluid w-75 h-75 frm justify-content-center shadow-lg mt-5 pt-1 pb-5" style="border-radius: 30px; background-color: #F5F5FB ; ">
+                                    <form class="my-5  p-lg-5 px-5 text-center align-content-center justify-content-center  ">
+                                        <input type="email" class="form-control py-2 shadow-sm" id="email" placeholder="اسم المستخدم/ البريد الالكتروني" style="border-radius: 50px;">
+                                        <input type="password" class="form-control py-2 mt-sm-3 shadow-sm" id="password" placeholder="كلمة المرور" style="border-radius: 50px;">
+                                        <label class="float-md-end" style="font-size:12px;">هل نسيت كلمة المرور؟</label>
+                                        <a class="text-center btn w-100 text-white fw-bold mt-3 py-2" style="background-color: #CEBFE9; border-radius:30px">دخول<span class="text-white float-lg-start fw-light">></span> </a>
+                                        <label class="float-md-end" style="font-size:12px;"><a href="#" class="text-decoration-none text-dark">ليس لديك حساب؟<span class="fw-bold"> مستخدم جديد</span></a></label>
+                                        <div class="divider d-flex align-items-center mt-5">
+                                            <p class="text-center  mx-3 mb-0 text-white py-1 px-2" style="background-color: #CEBFE9; border-radius: 50% ">أو</p>
+                                        </div>
+                                        <div class="d-flex text-center mt-1  justify-content-center ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24" style="fill: rgba(3, 155, 229, 1); background-color:white; border-radius:50% ;"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
+                                            <a href="#" class="text-decoration-none "> <img src="img/google.png" style="background-color: white; border-radius: 50%; width:45px ;height:45px" /> </a>
+                                        </div>
+                                        <img src="img/2.png" class="position-absolute d-none d-lg-block" style="top:40%; right:9%" />
+                                        <img src="img/2.png" class="position-absolute d-block d-lg-none" style="top:20%; left:75%;" />
+
+                                    </form>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="d-none d-lg-block col-md-12 col-lg-5">
+                <img src="img/1.png" width="97%" height="90%" />
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
